@@ -40,5 +40,5 @@ EXPOSE 3000
 CMD ["npm","run","dev"]
 
 # Docker Image
-Use "trainwithshubham/reddit-clone" image on k8s for this kind of project
+Use "amardoc1/reddit-clone" image on k8s for this kind of project
 
