@@ -39,5 +39,5 @@ RUN npm install
 EXPOSE 3000
 CMD ["npm","run","dev"]
 
-
+# Use "trainwithshubham/reddit-clone" image on k8s for this kind of project
 
