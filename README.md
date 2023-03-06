@@ -31,4 +31,13 @@ Follow these steps to install and run the Reddit clone app on your local machine
 ## Contributing
 If you'd like to contribute to this project, please open an issue or submit a pull request.
 
+## Basic Dockerfile to create image.
+FROM node:19-alpine3.15
+WORKDIR /reddit-clone
+COPY . /reddit-clone
+RUN npm install
+EXPOSE 3000
+CMD ["npm","run","dev"]
+
+
 
